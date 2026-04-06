@@ -1,7 +1,7 @@
-#  NBA Bet King: Machine Learning Predictor
+#   Machine Learning Predictor
 
 ## O projekcie
-**NBA Bet King** to zautomatyzowany system analityczny do przewidywania wyników meczów NBA. Projekt łączy własną implementację algorytmu Elo Rating z uczeniem maszynowym (Logistic Regression), aby oceniać prawdopodobieństwo wygranej i kategoryzować zakłady bukmacherskie pod kątem ryzyka i opłacalności (tzw. zyskowny edge).
+**NBA Predictor** to zautomatyzowany system analityczny do przewidywania wyników meczów NBA, natomiast stworzony głównie w celach naukowych by zwiekszyć swoje umiejętnopści programowania oraz poznania nowych metod analizy danych. Projekt łączy własną implementację algorytmu Elo Rating z uczeniem maszynowym (Logistic Regression), aby oceniać prawdopodobieństwo wygranej i kategoryzować mecze pod kątem ryzyka i opłacalności.
 
 ## Droga Analityczna (Research Journey)
 Projekt zaczynałem od:
@@ -39,4 +39,4 @@ Wpisz 3-literowy skrót gościa (np. BOS, GSW).
 
 Program zapyta o datę meczu w formacie RRRR-MM-DD (np. 2026-04-06). Jeśli mecz odbywa się dzisiaj, po prostu wciśnij ENTER.
 
-System automatycznie sprawdzi zmęczenie (B2B) względem podanej daty, policzy model i wyrzuci ostateczną rekomendację bukmacherską.
+System automatycznie sprawdzi zmęczenie (B2B) względem podanej daty, policzy model i wyrzuci ostatecznego faworyta.
