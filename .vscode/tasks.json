@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run statystyki_5",
+        "type": "shell",
+        "command": "python statystyki_5.py",
+        "presentation": {
+          "panel": "new"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
